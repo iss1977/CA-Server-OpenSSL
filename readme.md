@@ -221,6 +221,18 @@ In this step we can check the certificate to be used with an nginx server.
     sudo systemctl restart nginx
     ```
 
+#### Add a Root Certificate in Google Chrome
+
+        Procedure
+            1. Open the browser.
+            2. Click Customize and control Google Chrome button in the upper right corner.
+            3. Choose Settings. ...
+            4. Under Privacy and security section, click More. ...
+            5. Click Manage certificates, The new window will appear. ...
+            6. Choose Trusted Root Certification Authorities tab.
+            7. Click Import. ...
+            8. In the opened window, click Next.
+
 Useful links:
 
 [How to create and use self signed ssl on nginx](https://www.howtogeek.com/devops/how-to-create-and-use-self-signed-ssl-on-nginx/)</br>
